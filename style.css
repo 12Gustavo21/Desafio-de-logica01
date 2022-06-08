@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D58FFF;
+    margin: 15%;
+}
+
+h1{
+    font-size: 52px;
+    transition: 1s all;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1:hover{
+    font-size: 40px;
+}
+
+p{
+    font-size: 35px;
+    transition: 1s all;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p:hover{
+    font-size: 27px;
+}
